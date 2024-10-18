@@ -9,7 +9,8 @@ from ckan.plugins import toolkit
 from ckantoolkit import config
 from rdflib import URIRef, BNode, Literal
 from rdflib.namespace import Namespace, RDF, SKOS
-from ckanext.dcat.profiles import RDFProfile, CleanedURIRef, URIRefOrLiteral
+from ckanext.dcat.profiles import RDFProfile, CleanedURIRef
+from ckanext.dcat.profiles.base import URIRefOrLiteral
 from ckanext.dcat.utils import resource_uri, DCAT_CLEAN_TAGS
 import ckanext.dcatde.dataset_utils as ds_utils
 
